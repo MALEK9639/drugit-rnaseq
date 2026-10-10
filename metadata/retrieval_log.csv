@@ -1,0 +1,4 @@
+"accession","file","source_url","retrieval_date","R_version","GEOquery"
+"GSE50760","GSE50760_raw_counts_GRCh38.p13_NCBI.tsv.gz","https://www.ncbi.nlm.nih.gov/geo/download/?type=rnaseq_counts&acc=GSE50760&format=file&file=GSE50760_raw_counts_GRCh38.p13_NCBI.tsv.gz","2026-10-10","R version 4.6.1 (2026-06-24 ucrt)","2.80.0"
+"GSE50760","Human.GRCh38.p13.annot.tsv.gz","https://www.ncbi.nlm.nih.gov/geo/download/?format=file&type=rnaseq_counts&file=Human.GRCh38.p13.annot.tsv.gz","2026-10-10","R version 4.6.1 (2026-06-24 ucrt)","2.80.0"
+"GSE50760","geo_sample_metadata_raw.csv","GEOquery::getGEO('GSE50760')","2026-10-10","R version 4.6.1 (2026-06-24 ucrt)","2.80.0"

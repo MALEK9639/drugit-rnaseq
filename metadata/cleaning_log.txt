@@ -1,0 +1,20 @@
+Samples in GEO metadata: 54
+Metadata columns: title | geo_accession | status | submission_date | last_update_date | type | channel_count | source_name_ch1 | organism_ch1 | characteristics_ch1 | characteristics_ch1.1 | molecule_ch1 | extract_protocol_ch1 | extract_protocol_ch1.1 | taxid_ch1 | data_processing | data_processing.1 | data_processing.2 | data_processing.3 | data_processing.4 | data_processing.5 | platform_id | contact_name | contact_email | contact_phone | contact_department | contact_institute | contact_address | contact_city | contact_zip/postal_code | contact_country | data_row_count | instrument_model | library_selection | library_source | library_strategy | relation | relation.1 | supplementary_file_1 | ajcc stage:ch1 | tissue:ch1
+Tissue classes found:
+Patients detected: 18
+Samples kept for the main comparison: 36
+Group sizes: normal 18, tumor 18
+Missing group labels: 0
+Duplicated sample IDs: 0
+Patients missing one of the two groups: 0
+Raw matrix: 39376 genes x 54 samples
+Non-gene summary rows removed: 0
+Duplicated gene identifiers: 0
+Missing values in counts: 0
+Negative values: 0
+Non-integer values: 0
+Samples in count matrix but not in metadata (expected: the metastasis samples): 18
+Metadata samples missing from the count matrix: 0
+Sample names match metadata: TRUE
+Genes without a symbol in the annotation: 39376
+ID method: Entrez GeneID kept; symbols added from Human.GRCh38.p13.annot.tsv.gz (display only).
