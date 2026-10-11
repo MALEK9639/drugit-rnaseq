@@ -15,6 +15,13 @@ MIN_COUNT  <- 10         # a gene is "expressed" in a sample if count >= MIN_COU
 # (size of the smallest group) samples.
 N_TOP_VAR  <- 500        # most variable genes used for the PCA
 
+# ---- Differential expression parameters (script 04) ----
+PADJ_CUTOFF          <- 0.05   # adjusted p-value (Benjamini-Hochberg) threshold
+LFC_CUTOFF           <- 1      # |log2 fold change| threshold (shrunken): at least 2-fold
+SENS_EXCLUDE_PATIENT <- "P17"  # patient removed (both samples) in the sensitivity analysis
+N_HEATMAP_GENES      <- 40     # genes shown in the heatmap
+N_LABEL_VOLCANO      <- 16     # genes labelled on the volcano plot (half up, half down)
+
 # ---- Folders ----
 for (d in c("data/raw", "data/processed", "metadata", "figures", "results", "report"))
   dir.create(d, recursive = TRUE, showWarnings = FALSE)
