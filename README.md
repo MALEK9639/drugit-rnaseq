@@ -43,7 +43,7 @@ Raw count matrices are not committed (`.gitignore`); script 01 re-downloads them
 
 Paired analysis of 18 patients (normal colon vs primary tumour, DESeq2, design `\~ patient + group`), 18,894 genes tested.
 
-* **2,211 genes** pass adjusted p < 0.05 and |shrunken log2FC| >= 1: **646 up** and **1,565 down** in the tumour.
+* **2,211 genes have adjusted p < 0.05 (tested against no change) and an estimated |shrunken log2FC| ≥ 1. The FDR applies to any change; the fold-change cutoff is an effect-size filter**: **646 up** and **1,565 down** in the tumour.
 * **Up in tumour:** KRT80, INHBA, ETV4, CST1, COL11A1, CLDN1, CDH3, ESM1, MMP7, COL10A1.
 * **Down in tumour:** BEST4, OTOP2, CA7, SPIB, OTOP3, UNC5C, SH2D6, ABCG2, CLCA4-AS1, MYOC (markers of mature colonic epithelium).
 * **Over-representation (GO BP):** up genes are enriched for extracellular matrix organisation, angiogenesis and epithelial-mesenchymal transition; down genes for immunoglobulin-mediated immunity, ion homeostasis and sodium transport.
